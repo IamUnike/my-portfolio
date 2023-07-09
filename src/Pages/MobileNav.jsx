@@ -27,7 +27,7 @@ const MobileNav = ({mobileNav, setMobileNav}) => {
                   <a href='mailto:gideontech21@gmail.com' className='bg-white text-sm text-purple-700 rounded-md p-2 hover:bg-transparent border-2 border-white font-poppins duration-300'> Contact Me </a> 
                 </div>
 
-                <div className='rounded-md p-4 w-5/6 flex justify-center items-center gap-3 overflow-auto bg-secondary-200 bg-opacity-50'>
+                <div className='rounded-md p-4 w-5/6 flex justify-center items-center gap-3 overflow-auto bg-secondary-200 bg-opacity-50 mb-4'>
                     <p className='text-xs font-poppins transform rotate-90'> Skillset  </p>
                     
                     <img src={reactImg} alt="react" className='skill-img' loading='lazy' />

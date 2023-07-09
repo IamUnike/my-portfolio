@@ -1,7 +1,7 @@
 const About = () => {
     return ( 
         <div>
-            <section className="w-4/5 h-fit mx-auto mt-6 ">
+            <section className="w-5/6 h-fit mx-auto mt-6 ">
 
                 <div className=" text-white">
                     <p className="p-4 text-sm" data-aos='slide-up' data-aos-duration='500'> Before you trail the vigours of my masterpieces, you should know that: </p>

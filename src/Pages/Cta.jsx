@@ -2,7 +2,7 @@ const Cta = () => {
     return ( 
         <div className="bg-secondary-200 bg-opacity-40">
             
-            <section className="w-3/4 pb-4 mx-auto mt-8 text-white pt-4" >
+            <section className="w-5/6 pb-4 mx-auto mt-8 text-white pt-4" >
                 
                 <h3 className="font-bold font-poppins text-purple-600 my-2" data-aos-duration='500' > Cool Projects Yeah? </h3> 
 

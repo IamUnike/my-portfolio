@@ -12,7 +12,7 @@ import { motion } from "framer-motion"
 const MobileNav = ({mobileNav, setMobileNav}) => {
     return ( 
         <motion.nav 
-            className='text-white h-screen w-full top-0 z-80 fixed bg-black flex flex-col items-center justify-around'
+            className='text-white max-h-screen w-full top-0 z-80 fixed bg-black flex flex-col items-center justify-around'
             initial={{scale: 0}} animate={{scale: [0, 2, .7, 1]}} transition={{duration: 1, ease:'easeIn'}}  exit={{scale: 0, opacity:0}} >
                 
                 <div className='bg-secondary-200 rounded-md p-2 flex justify-between w-5/6  items-center'>

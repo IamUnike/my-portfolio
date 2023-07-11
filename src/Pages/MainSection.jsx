@@ -19,7 +19,7 @@ const MainSection = () => {
                 </div>
 
                  
-                    <div className=" h-12 w-28 flex items-center justify-center gap-3 absolute bottom-10 right-0">
+                    <div className=" h-12 w-28 flex items-center justify-center gap-3 absolute bottom-5 right-0">
                         <a href="https://twitter.com/only1_Gideon" className="socialBtn  bg-blue-600"> 
                             <i className="fa fa-twitter text-sm text-white"></i> 
                         </a>

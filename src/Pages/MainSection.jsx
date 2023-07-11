@@ -4,7 +4,7 @@ import dots from '../assets/dots.png'
 const MainSection = () => {
     return ( 
         <main>
-            <section className="w-5/6 h-screen bg-primary flex flex-col justify-center items-center gap-4 m-auto relative">
+            <section className="w-5/6 h-screen bg-primary flex flex-col justify-center items-center gap-3 m-auto relative">
 
                 <img src={reactImg} alt="react logo" loading="lazy" className='w-6 h-4 absolute top-20 right-0 opacity-40' />
 
@@ -19,7 +19,7 @@ const MainSection = () => {
                 </div>
 
                  
-                    <div className=" h-12 w-28 flex items-center justify-center gap-3 absolute bottom-5 right-0">
+                    <div className=" h-12 w-28 flex items-center justify-center gap-3 absolute bottom-10 right-0">
                         <a href="https://twitter.com/only1_Gideon" className="socialBtn  bg-blue-600"> 
                             <i className="fa fa-twitter text-sm text-white"></i> 
                         </a>
@@ -32,8 +32,6 @@ const MainSection = () => {
                             <i className="fa fa-github text-sm text-white"></i>
                         </a>
                     </div>
-
-                                
             </section>
         </main>
      );

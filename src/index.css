@@ -24,3 +24,7 @@
 .skill-img{
     @apply object-contain w-6 h-6 rounded-full
 }
+
+.cta-input{
+    @apply bg-transparent text-white outline-none border-b pt-3 px-1 w-full text-sm mb-6
+}

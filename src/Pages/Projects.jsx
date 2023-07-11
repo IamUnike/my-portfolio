@@ -6,7 +6,7 @@ const Projects = ({projects}) => {
                 {projects.map((project, index) => (
                     <div key={index} className="border border-secondary-200 flex flex-col justify-center gap-6  h-72 rounded-lg bg-secondary-200 overflow-hidden bg-opacity-30 text-white" data-aos='slide-right' data-aos-duration='500'>
                         
-                        <div className="h-32 w-3/4  rounded-md mx-auto overflow-hidden" data-aos='zoom-out' data-aos-duration='700' data-aos-delay='300'>
+                        <div className="h-32 w-4/5  rounded-md mx-auto overflow-hidden" data-aos='zoom-out' data-aos-duration='700' data-aos-delay='300'>
                             <img src={project.image} loading='lazy' alt="jobar cv project" className='w-full h-full object-contain' />
                         </div>
 

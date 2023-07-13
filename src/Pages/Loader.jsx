@@ -6,8 +6,8 @@ const Loader = () => {
             
             <Dna
                 visible={true}
-                height="80"
-                width="80"
+                height="50"
+                width="50"
                 ariaLabel="dna-loading"
                 wrapperStyle={{}}
                 wrapperClass="dna-wrapper"

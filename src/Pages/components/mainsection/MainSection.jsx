@@ -1,5 +1,5 @@
-import reactImg from '../assets/reactImg.png'
-import dots from '../assets/dots.png'
+import reactImg from '../../../assets/reactImg.png'
+import dots from '../../../assets/dots.png'
 
 const MainSection = () => {
     return ( 

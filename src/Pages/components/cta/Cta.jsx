@@ -10,7 +10,7 @@ const Cta = () => {
 
                 <p className="font-poppins mt-3 py-2 text-sm">Well, thanks for stopping by. I'm currently looking for new opportunities and collaborations. So if you think we're a good fit for each other, just send me a message, let's build together!</p>
 
-               <Form />
+                <Form />
 
                 <div className="mt-8">
                     <p className="font-poppins text-purple-600 font-bold">And hey, you don't have to be a stranger!</p>
@@ -33,7 +33,7 @@ const Cta = () => {
                 </div>
 
                 <div className="border-t mt-6">
-                    <p className="text-sm pt-2 text-right"> &copy; Gideon Cyril 2023</p>
+                    <p className="text-sm pt-2 text-right"> &copy; Gideon Cyril {new Date().getFullYear() } </p>
                 </div>
 
             </section>

@@ -26,10 +26,7 @@ const Projects = ({projects}) => {
                         </div>
 
                     </div>
-
-                ))}
-                    
-                   
+                ))}     
             </section>
         </div>
      );

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import avatar from '../assets/avatar.jpg'
+import avatar from '../../../assets/avatar.jpg'
 import MobileNav from './MobileNav';
 
 import { AnimatePresence } from 'framer-motion'

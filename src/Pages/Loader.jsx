@@ -2,7 +2,7 @@ import { Dna } from 'react-loader-spinner';
 
 const Loader = () => {
     return ( 
-        <div className="border bg-black text-white h-screen w-full flex justify-center items-center">
+        <div className="bg-black text-white h-screen w-full flex justify-center items-center">
             
             <Dna
                 visible={true}
@@ -12,7 +12,6 @@ const Loader = () => {
                 wrapperStyle={{}}
                 wrapperClass="dna-wrapper"
             />
-
         </div>
      );
 }
